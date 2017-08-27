@@ -1,0 +1,54 @@
+#container {
+    height: 450px;
+    width: 650px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#img {
+    height: 450px;
+    width: 650px;
+    position: absolute;
+}
+
+#left_holder {
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#right_holder {
+    height: 450px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.left {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    opacity:0;
+}
+
+.right {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    opacity:0;
+}
+
+#right_holder:hover .right {
+opacity:0.6;
+}
+
+#left_holder:hover .left {
+opacity:0.6;
+}
